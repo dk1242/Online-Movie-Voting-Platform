@@ -4,7 +4,7 @@
   "description": "Backend for movie voting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/dk1242/Online-Movie-Voting-Platform/issues"
   },
-  "homepage": "https://github.com/dk1242/Online-Movie-Voting-Platform#readme"
+  "homepage": "https://github.com/dk1242/Online-Movie-Voting-Platform#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
